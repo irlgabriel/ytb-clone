@@ -59,13 +59,13 @@ nav {
 
 #left-sect-main {
   width: 820px;
-  margin-left: 31px;
+  margin: 0px 31px;
 }
 
 #right-sect-main {
   width: 402px;
   
-  height: 339px;
+
 }
 
 
@@ -126,4 +126,13 @@ nav {
   color: gray;
   margin: 0px;
   font-size: 13px;
+}
+
+@media only screen and (max-width: 800px) {
+  #right-sect-main {
+    display: none;
+  }
+  #left-sect-main {
+    width: 100%;
+  }
 }
