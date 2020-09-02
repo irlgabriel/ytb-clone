@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.bg-light-gray {
+  background-color: #f5f5f5;
+}
+
+nav {
+  padding: 0px 20px;
+  height: 56px;
+  width: 100%;
+}
+
+.burger-menu {
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  margin: 3px 0;
+}
+
+#ytb-logo-navbar {
+  font-size: 24px;
+  margin-top: -3px;
+  color: red;
+}
+
+#top-nav-searchbar {
+  width: 600px;
+  padding: 2px 9px;
+  border:none;
+}
+
+#left-nav-sect {
+  width: 200px;
+}
+
+#right-nav-sect {
+  width: 200px;
+}
+
+#search-button {
+  border: none;
+  padding: 4px 25px;
+  margin-left: -3px;
+  border-left: 1px solid rgb(206, 206, 206);
+}
+
+#search-icon {
+  color: rgb(146, 146, 146);
+  
+}
+
+#search-form {
+  border: 1px solid rgb(207, 207, 207);
+}
+
+#left-sect-main {
+  width: 820px;
+  margin-left: 31px;
+}
+
+#right-sect-main {
+  width: 402px;
+  
+  height: 339px;
+}
+
+
+#ytb-vid-container iframe {
+  width: 100%;
+}
+
+#ytb-vid-container {
+}
+
+#title {
+  font-size: 20px;
+}
+
+#profile-name {
+  font-weight: 500;
+}
+
+
+
+#desc {
+  font-size: 14px;
+  margin-left: 56px;
+}
+
+#subscribe {
+  background-color: red;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0px 15px;
+}
+
+
+#up-next {
+  font-size: 18px;
+
+}
+
+.thumbnail {
+  margin-right: 10px;
+}
+
+.thumbnail-p {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.thumbnail-subs {
+  color: gray;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.thumbnail-views {
+  color: gray;
+  margin: 0px;
+  font-size: 13px;
+}

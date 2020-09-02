@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contribution to Open Source Part I - The Easy Way</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- bootstrap jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/59f6efb51c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- top nav -->
+    <nav class="d-flex align-items-center">
+      <section class="d-flex align-items-center" id="left-nav-sect">
+        <!-- burger button html -->
+        <div id="burger-menu" class="mx-2">
+          <div class="burger-menu"></div>
+          <div class="burger-menu"></div>
+          <div class="burger-menu"></div>
+        </div>    
+        <!-- ytb logo -->
+        <a href="" class="mx-2">
+          <i class="fab fa-youtube" id="ytb-logo-navbar"></i>
+          <span class="font-weight-bold text-dark">Youtube</span> 
+        </a>
+      </section>
+
+      <!-- search-bar -->
+      <form id="search-form">
+        <input type="text" placeholder="Search" id="top-nav-searchbar">
+        <button type="submit" id="search-button">
+          <i id="search-icon" class="fas fa-search"></i>
+        </button>
+      </form>
+
+
+    </nav>
+    
+    <!-- main -->
+    <div class="wrapper d-flex bg-light-gray pt-4 ">
+      
+
+      <!-- primary -->
+      <section id="left-sect-main">
+
+        <!-- ytb vid div wrapper -->
+        <div id="ytb-vid-container" class='mb-3'>
+          <iframe  width="560" height="380" src="https://www.youtube.com/embed/lJIrF4YjHfQ?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+        </div>
+
+        <!-- under video -->
+
+        <!-- title -->
+        <p id="title">Embed videos and playlists</p>
+
+        <!-- views and date-->
+        <div id="views" class="text-muted">
+          <span>315,668 views</span>
+          <span>&centerdot;</span>
+          <span>28 May 2020</span>
+        </div>
+
+        <hr>
+          <div id="profile-info">
+            <div class="d-flex mb-3">
+              <img width="48" id="profile-img" src="https://yt3.ggpht.com/a/AATXAJxc6yGpIyuz6YxyNbrEFjADkoXdr2GgoAyH-d9DkA=s100-c-k-c0xffffffff-no-rj-mo" class="mr-2 rounded-circle">
+              <div>
+                <p id="profile-name" class='m-0'>OG Eastbull</p>
+                <p id="profile-subscribers" class="m-0 text-muted">245,321 subscribers</p>
+              </div>
+              <button id="subscribe" type="submit" class="ml-auto">Subscribe</button>
+            </div>
+
+            <p id="desc" class="pt-3">
+              Non officia minim consectetur dolore est non dolore Lorem elit reprehenderit ullamco. Amet laborum excepteur labore duis proident aute velit ut. Cupidatat non laborum quis cupidatat incididunt incididunt nisi aliquip anim cillum.
+            </p>
+          </div>
+
+        <hr>
+
+        <div id="comments">
+          
+        </div>
+      </section>
+
+      <!-- secondary -->
+      <section id="right-sect-main" class="ml-4 px-1">
+        <p id="up-next" class="text-muted">Up next</p>
+        
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <hr>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+
+        </div>
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+        <div class="my-2 video-suggestion clearfix">
+          <img class="float-left thumbnail" alt="" width="168" src="https://i.ytimg.com/vi/dzSBkK473mg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLAb8T2Ls2qSLd2KH1skjWr_SY6T8w">
+          <p class="thumbnail-p">I tried the Vertical Diet For A Week...</p>
+          <p class="thumbnail-subs">Will Tennyson</p>
+          <p class="thumbnail-views">542K views &centerdot; 2 months ago</p>
+        </div>
+
+
+      </section>
+
+    </div>
+    
+  </body>
+</html>
